@@ -26,3 +26,11 @@ spec:
       spec:
         service_type: NodePort
         admin_user: admin
+
+    postgres:
+      enabled: true
+      host: adatabase-2-instance-1.cqdguar2ilnu.ap-south-1.rds.amazonaws.com
+      port: 5678
+      dbName: postgres
+      username: postgres
+      password: Z22gsjG2eTxy
